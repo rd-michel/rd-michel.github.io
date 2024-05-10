@@ -9,6 +9,12 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+// colors
+$background: #0d1117;
+$gray-border: #30363d;
+$light-lime: #7ee787;
+$slime: #28ff00;
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -18,9 +24,10 @@ html {
 }
 
 body {
-	background: $white;
+  background: $background;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: #ddd;
+  // color: $darkGray;
 }
 
 .container {
@@ -61,7 +68,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: $light-lime;
 }
 
 p {
@@ -117,7 +124,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $light-lime;
 }
 
 // Specify the color of the selection
@@ -254,9 +261,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid $light-lime;
     padding: 0.1em 1em;
-    color: $gray;
+    color: $lightGray;
     font-size: 22px;
     font-style: italic;
   }
